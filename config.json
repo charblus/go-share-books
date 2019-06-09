@@ -1,0 +1,26 @@
+{
+  "site_name": "sharebooks",
+  "release": false,
+  "bind_port": 9901,
+  "redis": {
+    "addr": "localhost:6379",
+    "password": "",
+    "db": 0
+  },
+  "psql": {
+    "host": "localhost",
+    "port": 6432,
+    "user": "oahcoay",
+    "password": "123456",
+    "db": "share-book-db"
+  },
+  "log": {
+    "file": "",
+    "level": "debug",
+    "rotate": "day"
+  },
+  "wx": {
+    "app_id": "",
+    "app_secret": ""
+  }
+}
